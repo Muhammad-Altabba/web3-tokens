@@ -10,7 +10,6 @@ import IERC721 from './artifacts/IERC721';
 import IERC777 from './artifacts/IERC777';
 import IERC1155 from './artifacts/IERC1155';
 import IERC4626 from './artifacts/IERC4626';
-
 export class TokensPlugin extends Web3PluginBase {
   public pluginNamespace = 'tokens';
 
